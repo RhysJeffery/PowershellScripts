@@ -1,4 +1,4 @@
-﻿$Servers = 'TASDC01','TASWD01'
+﻿$Servers = 'server2','server1'
 
 $VendorUefi = 'PXEClient (UEFI x64)'
 $VendorBios = 'PXEClient (BIOS x86 & x64)'
@@ -12,7 +12,7 @@ $DataBios = '0x505845436c69656e743a417263683a3030303030'
 $PolicyDescriptionUefi = 'Delivers the correct bootfile for (UEFI x64)'
 $PolicyDescriptionBios = 'Delivers the correct bootfile for (BIOS ALL)'
 
-$BootServer = "taswd01.internal.taipa.school.nz"
+$BootServer = "bootserver"
 $BootUefi = 'boot\x64\wdsmgfw.efi'
 $BootBios = 'boot\x86\wdsnbp.com'
 
