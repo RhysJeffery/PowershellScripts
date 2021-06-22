@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Configuration>
+    <InstallLocation>D:\</InstallLocation> <!-- Physical Install Path -->
+    <DeploymentServer>KKPSDEP01</DeploymentServer> <!-- IP Address of server if CTP install, otherwise server name -->
+    <User>wdsUser</User> <!-- username of the user which MDT users, should not be local admin, or domain admin. Needs full control of computer objects on OUs that computers get created in. -->
+    <Password>HYF6angs</Password> <!-- Password for user above, should be generated and not contain any &-->
+    <DomainName>internal.kkps.school.nz</DomainName> <!-- Domain name of school if a non CTP install -->
+    <SchoolName>KeriKeri Primary School</SchoolName> <!-- Name of school, used for branding -->
+    <DefaultDevicePassword>6sS5gk*z</DefaultDevicePassword> <!-- Default password for devices Administrators account -->
+    <CTP>false</CTP> <!-- true or false, only set to true if for a CTP school, if they use AD then set to false -->
+    <SchoolWebsite>https://www.kerikeriprimary.school.nz/</SchoolWebsite> <!-- Sets the schools website -->
+    <DefaultDeviceOU>OU=Computers,OU=KKPS,DC=internal,DC=kkps,DC=school,DC=nz</DefaultDeviceOU> <!-- Sets the default OU if selections are not used -->
+    <RODC>True</RODC> <!-- If the MDT server is a RODC we can auto generate the OU list. -->
+</Configuration>

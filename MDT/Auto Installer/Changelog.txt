@@ -1,0 +1,10 @@
+Version: 1.2
+Date: 21/06/2021
+
+Changes -
+* Implimented change log
+* Changed from Offline to Online ADK/PE, download is faster from MS than downloading entire installer from OneDrive then running
+* Fixed TS Varible Set Name
+* Implimented Wim Addition (Auto imports any wims in WIM folder)
+* Implimented SCCM Driver Pack List
+* Fixed MDT Monitor
