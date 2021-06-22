@@ -1,4 +1,4 @@
-# PowershellScripts
+# Powershell Scripts
 Collection of PowerShell Scripts I've edited or written.
 
 
